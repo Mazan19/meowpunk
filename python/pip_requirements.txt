@@ -1,0 +1,3 @@
+pandas==1.3.5
+memory_profiler==0.60.0
+psuitil==5.9.1

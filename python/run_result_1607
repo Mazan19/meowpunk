@@ -1,0 +1,36 @@
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 28952 entries, 0 to 33353
+Data columns (total 6 columns):
+ #   Column       Non-Null Count  Dtype 
+---  ------       --------------  ----- 
+ 0   timestamp    28952 non-null  int64 
+ 1   player_id    28952 non-null  int64 
+ 2   error_id     28952 non-null  object
+ 3   json_server  28952 non-null  object
+ 4   json_client  28952 non-null  object
+ 5   day          28952 non-null  object
+dtypes: int64(2), object(4)
+memory usage: 1.5+ MB
+        timestamp  ...         day
+0      1612068364  ...  2021-01-31
+1      1622449698  ...  2021-05-31
+3      1612131165  ...  2021-02-01
+4      1616823723  ...  2021-03-27
+5      1615802575  ...  2021-03-15
+...           ...  ...         ...
+33349  1612716933  ...  2021-02-07
+33350  1610865894  ...  2021-01-17
+33351  1618606083  ...  2021-04-16
+33352  1612910316  ...  2021-02-10
+33353  1615810414  ...  2021-03-15
+
+[28952 rows x 6 columns]
+Filename: /home/margaret/meowpunk/python/run_with_memory_profiler.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     8   65.090 MiB   65.090 MiB           1   @profile
+     9                                         def run_with_profiler():
+    10  480.684 MiB  415.594 MiB           1       main.main()
+
+
